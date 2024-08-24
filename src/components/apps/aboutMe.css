@@ -1,0 +1,221 @@
+/* hero.css */
+.hero-container {
+    height: 75%; /* Adjust to a percentage of the parent container's height */
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 5%; /* Adjust to a percentage */
+  }
+  
+  .hero-content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; /* For responsiveness */
+    width: 100%;
+  }
+  
+  .left {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1%; /* Adjust to a percentage */
+    margin-top: 1%; /* Margin for top */
+  }
+  
+  .info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .hero-title {
+    font-size: 3vw; /* Use viewport width for responsiveness */
+    font-weight: bold;
+    margin-left: 7%; /* Adjust to a percentage */
+    color: #ffffff; 
+    margin-top: -6%;
+  }
+  
+  .hero-animation {
+    color: #fbbf24;
+    font-size: 2vw; /* Use viewport width for responsiveness */
+    font-weight: bold;
+    margin-left: 22%; /* Adjust to a percentage */
+  }
+  
+  .hero-description {
+    font-size: 1vw; /* Use viewport width for responsiveness */
+    font-weight: 500;
+    color: #ffffff;
+    width: 70%; /* Adjust to a percentage */
+    margin-left: 5%; /* Adjust to a percentage */
+    margin-top: 3.5%; /* Margin for top */
+  }
+  
+  .icons {
+    display: flex;
+    margin-top: 1%; /* Margin for top */
+  }
+  
+  .icon-list {
+    display: flex;
+    gap: 1%; /* Space between icons, adjust to percentage */
+  }
+  
+  .icon {
+    height: 1.8vw; /* Use viewport width for responsiveness */
+    width: 1.8vw; /* Use viewport width for responsiveness */
+    font-size: 1.5vw; /* Use viewport width for responsiveness */
+    transition: transform 0.2s; /* Smooth scale effect */
+    color: #ffffff;
+    margin-left: 15%; /* Adjust to a percentage */
+  }
+  
+  .icon:hover {
+    transform: scale(1.25); /* Scale effect on hover */
+  }
+  
+  .right {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; /* Align items to the start */
+  }
+  
+  .image-container {
+    position: relative;
+    height: 88%; /* Adjust to a percentage of the parent container's height */
+    display: flex;
+    align-items: flex-end; /* Align to bottom */
+  }
+  
+  .hero-image {
+    height: 100%;
+    width: 100%;
+    object-fit: cover; /* Cover the image */
+  }
+  
+  /* Responsive styles */
+  @media (max-width: 768px) {
+    .hero-title {
+      font-size: 2.5vw; /* Adjust for smaller screens */
+      margin-left: 2%; /* Adjust to a percentage */
+    }
+  
+    .hero-animation {
+      font-size: 1.8vw; /* Adjust for smaller screens */
+      margin-left: 2%; /* Adjust to a percentage */
+    }
+  
+    .hero-description {
+      font-size: 1.2vw; /* Adjust for smaller screens */
+      margin-left: 2%; /* Adjust to a percentage */
+      width: 90%; /* Adjust to a percentage */
+    }
+  
+    .icons {
+      margin-top: 0.5%; /* Margin for top */
+    }
+  
+    .icon {
+      height: 1.5vw; /* Adjust for smaller screens */
+      width: 1.5vw; /* Adjust for smaller screens */
+      font-size: 1.2vw; /* Adjust for smaller screens */
+      margin-left: 2%; /* Adjust to a percentage */
+    }
+  
+    .image-container {
+      height: 70%; /* Adjust to a percentage */
+    }
+  }
+  @media (max-width: 768px) {
+    .hero-title {
+      font-size: 1.8em; /* Adjust for smaller screens */
+      margin-left: 0; /* Center on small screens */
+      margin-top: 1em; /* Margin for top */
+    }
+  
+    .hero-animation {
+      font-size: 1.6em; /* Adjust for smaller screens */
+      margin-left: 0; /* Center on small screens */
+    }
+  
+    .hero-description {
+      font-size: 1.2em; /* Adjust for smaller screens */
+      margin-left: 0; /* Center on small screens */
+      width: 90%; /* Adjust to a percentage */
+    }
+  
+    .icons {
+      flex-direction: column; /* Stack icons vertically */
+      margin-top: 1em; /* Margin for top */
+    }
+  
+    .icon {
+      height: 2em; /* Adjust for smaller screens */
+      width: 2em; /* Adjust for smaller screens */
+      font-size: 1.5em; /* Adjust for smaller screens */
+      margin-left: 0; /* Center on small screens */
+    }
+  
+    .image-container {
+      height: 50vh; /* Adjust height relative to viewport height */
+    }
+  }
+  /* Responsive styles for very small screens */
+  @media (max-width: 480px) {
+    .hero-container {
+      height: 80vh; /* Adjust height for small screens */
+      padding-top: 1em; /* Adjust padding for small screens */
+    }
+  
+    .hero-content {
+      flex-direction: column; /* Ensure vertical stacking */
+    }
+  
+    .left {
+      margin-top: 0.5em; /* Adjust margin for small screens */
+      align-items: center; /* Center align on small screens */
+    }
+  
+    .info {
+      align-items: center; /* Center align on small screens */
+    }
+  
+    .hero-title {
+      font-size: 1.5em; /* Adjust font size for small screens */
+      margin-left: 0; /* Remove left margin for small screens */
+      margin-top: 0.5em; /* Adjust margin for small screens */
+    }
+  
+    .hero-animation {
+      font-size: 1.4em; /* Adjust font size for small screens */
+      margin-left: 0; /* Remove left margin for small screens */
+    }
+  
+    .hero-description {
+      font-size: 1em; /* Adjust font size for small screens */
+      margin-left: 0; /* Remove left margin for small screens */
+      width: 100%; /* Use full width on small screens */
+      margin-top: 0.5em; /* Adjust margin for small screens */
+    }
+  
+    .icons {
+      flex-direction: column; /* Stack icons vertically */
+      margin-top: 0.5em; /* Adjust margin for small screens */
+      align-items: center; /* Center align icons */
+    }
+  
+    .icon {
+      height: 1.5em; /* Adjust size for small screens */
+      width: 1.5em; /* Adjust size for small screens */
+      font-size: 1.2em; /* Adjust font size for small screens */
+      margin-left: 0; /* Remove left margin for small screens */
+    }
+  
+    .image-container {
+      height: 50vh; /* Adjust height for small screens */
+    }
+  }
+  

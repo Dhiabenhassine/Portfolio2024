@@ -1,0 +1,52 @@
+.window {
+    background-color: #2d2d2d;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  .title-bar {
+    display: flex;
+    justify-content: space-between;
+    background-color: #1e1e1e;
+    padding: 10px;
+    color: white;
+  }
+  
+  .controls {
+    display: flex;
+  }
+  
+  .control-button {
+    cursor: pointer;
+    padding: 5px;
+    margin-left: 5px;
+    background-color: #3a3a3a;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+  }
+  
+  .control-button:hover {
+    background-color: #5a5a5a;
+  }
+  
+  /* Specific styles for Powershell */
+  .powershell-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+  }
+  
+  .prompt {
+    color: #33cc33;
+  }
+  
+  .input-area input {
+    background-color: transparent;
+    border: none;
+    color: white;
+    outline: none;
+    width: 80%;
+  }
+  
