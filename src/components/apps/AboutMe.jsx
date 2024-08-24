@@ -301,7 +301,7 @@ const AboutMe = ({ page, handleDivClick, expandedDiv }) => {
             )}
           </div>
         );
-      case "My Stuffs":
+      case "Projects":
         return (
           <div>
             <div className="grid sm:grid-cols-2 gap-2">
