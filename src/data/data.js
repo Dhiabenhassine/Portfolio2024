@@ -30,12 +30,52 @@ const githubLink = "https://github.com/Dhiabenhassine";
 export const workExperienceTemplate = [
   {
     key: 1,
-    company: "", // Add company name here
+    company: "Freelance(sales store dashboard)", // Add company name here
     description: [
-      "", // Add description points here
+      "Develop the backend for an Admin dashboard using Node.js, Express.js, and Sequelize.Develop an admin dashboard with a Material UI template.", // Add description points here
     ],
-    duration: "", // Add duration here
-    designation: "", // Add designation here
+    duration: "07/2024", // Add duration here
+    designation: "Full-Stack Developer", // Add designation here
+    type: "work",
+  },
+  {
+    key: 2,
+    company: "Digitales Native", // Add company name here
+    description: [
+      "Defining Project Scope: Work closely with founders and stakeholders to define project goals, deliverables, timelines, and success criteria.Sprint Planning: Lead sprint planning sessions, ensuring that the team has clear, actionable tasks and understands priorities.Iteration Reviews and Retrospectives: Conduct regular reviews and retrospectives to evaluate progress, gather feedback, and continuously improve processes.Team Collaboration: Facilitate collaboration between development, design, marketing, and sales to ensure that project goals are met cohesively.", // Add description points here
+    ],
+    duration: "12-2023 - Present", // Add duration here
+    designation: "Project Manager", // Add designation here
+    type: "work",
+  },
+  {
+    key: 3,
+    company: "Digitales Native", // Add company name here
+    description: [
+      "Develop the backend for an Admin dashboard using Node.js, Express.js, and Sequelize.Develop an admin dashboard with a Material UI template.", // Add description points here
+    ],
+    duration: "01-2023 - 11-2023", // Add duration here
+    designation: "Full-Stack Developer", // Add designation here
+    type: "work",
+  },
+  {
+    key: 4,
+    company: "RebootKamp (RBK)", // Add company name here
+    description: [
+      "Develop the backend for an Admin dashboard using Node.js, Express.js, and Sequelize.Develop an admin dashboard with a Material UI template.", // Add description points here
+    ],
+    duration: "04-2023 - 10-2022", // Add duration here
+    designation: "Full-Stack Developer", // Add designation here
+    type: "work",
+  },
+  {
+    key: 5,
+    company: "PROMOCUISINE ( Cuisina + Marmotek)", // Add company name here
+    description: [
+      "Develop the backend for an Admin dashboard using Node.js, Express.js, and Sequelize.Develop an admin dashboard with a Material UI template.", // Add description points here
+    ],
+    duration: "06-2020 - 08-2022", // Add duration here
+    designation: "Full-Stack Developer", // Add designation here
     type: "work",
   },
 ];
