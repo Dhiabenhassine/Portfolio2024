@@ -5,13 +5,13 @@ import tetris from '../../assets/jeux/tetris.jpg';
 import pacman from '../../assets/jeux/pacman.png';
 import chess from '../../assets/jeux/chess.jpg';
 import snake from '../../assets/jeux/snake.jpg';
-import './game.css';
-
-const GameLauncher = () => {
-  const [isGames, setIsGames] = useState(false);
+import "../apps/game.css"
+const GameLauncher = ({ isAppOpen, toggleGame, bounds }) => {
+  const [isGames, setIsGames] = useState(isAppOpen);
 
   const handleToggle = () => {
     setIsGames(!isGames);
+    toggleGame();
   };
 
   const games = [
@@ -23,36 +23,31 @@ const GameLauncher = () => {
   ];
 
   return (
-    <div className="game-launcher-container">
-      <Draggable>
-      
-      </Draggable>
-      {isGames && (
-        <Draggable>
-          <div className="game-window">
-            <div className="title-bar">
-              <div className="title">Games</div>
-              <div className="controls">
-                <button className="control-button">−</button>
-                <button className="control-button">□</button>
-                <button className="control-button" onClick={handleToggle}>×</button>
-              </div>
-            </div>
-            <div className="game-list">
-              {games.map((game, index) => (
-                <a href={game.url} target="_blank" rel="noopener noreferrer" key={index} className="game-item">
-                  <img src={game.image} alt={game.title} className="game-image" />
-                  <div className="game-details">
-                    <div className="game-title">{game.title}</div>
-                    <div className="game-description">{game.description}</div>
-                  </div>
-                </a>
-              ))}
+    isGames && (
+      <Draggable bounds={bounds}>
+        <div className="game-window">
+          <div className="title-bar">
+            <div className="title">Games</div>
+            <div className="controls">
+              <button className="control-button">−</button>
+              <button className="control-button">□</button>
+              <button className="control-button" onClick={handleToggle}>×</button>
             </div>
           </div>
-        </Draggable>
-      )}
-    </div>
+          <div className="game-list">
+            {games.map((game, index) => (
+              <a href={game.url} target="_blank" rel="noopener noreferrer" key={index} className="game-item">
+                <img src={game.image} alt={game.title} className="game-image" />
+                <div className="game-details">
+                  <div className="game-title">{game.title}</div>
+                  <div className="game-description">{game.description}</div>
+                </div>
+              </a>
+            ))}
+          </div>
+        </div>
+      </Draggable>
+    )
   );
 };
 

@@ -28,7 +28,7 @@ function Main() {
   });
 
   const [aboutMe, setAboutMe] = useState(null);
-  const [input, setInput] = useState(null);
+  //const [input, setInput] = useState(null);
 
   const toggleWindow = (window, input = null) => {
     setWindows({
@@ -46,9 +46,9 @@ function Main() {
 
     if (window === "explorer" && input !== null) {
       setAboutMe(input);
-    } else if (window === "app" && input !== null) {
+    }/* else if (window === "app" && input !== null) {
       setInput(input);
-    }
+    }*/
   };
 
   const screenWidth = window.innerWidth;
@@ -153,9 +153,13 @@ function Main() {
           />
           <Apps
             isAppOpen={windows.app}
-            toggleApp={(input) => toggleWindow("app", input)}
+            toggleApp={(
+            //  input
+            ) => toggleWindow("app"
+             // , input
+            )}
             bounds={bounds}
-            input={input}
+            //input={input}
           />
         </div>
         <Taskbar
