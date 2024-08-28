@@ -312,7 +312,7 @@ const AboutMe = ({ page, handleDivClick, expandedDiv }) => {
             </div>
           </div>
         );
-      case "Resume":
+      case "Experience":
         return (
           <main className="border-0 flex w-full  justify-center opacity-75 mt-0 text-sm">
                       <ul className="timeline timeline-snap-icon max-md:timeline-compact timeline-vertical my-8">

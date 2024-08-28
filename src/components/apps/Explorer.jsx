@@ -17,7 +17,7 @@ const Explorer = ({ isExplorerOpen, toggleExplorer, aboutMe, bounds }) => {
     else if (page === "Education") setIcon("edu");
     else if (page === "Skills") setIcon("skills");
     else if (page === "Projects") setIcon("projects");
-    else if (page === "Resume") setIcon("resume");
+    else if (page === "Experience") setIcon("experience");
     else setIcon("me");
   }, [page, aboutMe]);
 
@@ -530,21 +530,21 @@ const Explorer = ({ isExplorerOpen, toggleExplorer, aboutMe, bounds }) => {
                   </div>
                   <div
                     className={`flex items-center pl-2.5 mr-8 text-xs w-full h-8 rounded-sm ${
-                      page === "Resume"
+                      page === "Experience"
                         ? "bg-gray-200 bg-opacity-80 text-neutral-900"
                         : "hover:bg-neutral-700 text-white"
                     }`}
                     onClick={() => {
-                      setPage("Resume");
+                      setPage("Experience");
                     }}
                   >
                     <img
                       src="/images/folders/resume.png"
-                      alt="Resume"
+                      alt="Experience"
                       className="w-5 h-5 mr-2.5"
                     />
                     
-                    Resume
+                    Experience
                   </div>
                   <a
                     href="https://curriculum-vitae-dhia-ben-hassine.netlify.app/"
