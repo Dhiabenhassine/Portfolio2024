@@ -28,18 +28,9 @@ const githubLink = "https://github.com/Dhiabenhassine";
 
 // Work Experience Template
 export const workExperienceTemplate = [
+
   {
-    key: 1,
-    company: "Freelance(sales store dashboard)", // Add company name here
-    description: [
-      "Develop the backend for an Admin dashboard using Node.js, Express.js, and Sequelize.Develop an admin dashboard with a Material UI template.", // Add description points here
-    ],
-    duration: "07/2024", // Add duration here
-    designation: "Full-Stack Developer", // Add designation here
-    type: "work",
-  },
-  {
-    key: 2,
+    key:1,
     company: "Digitales Native", // Add company name here
     description: [
       "Defining Project Scope: Work closely with founders and stakeholders to define project goals, deliverables, timelines, and success criteria.Sprint Planning: Lead sprint planning sessions, ensuring that the team has clear, actionable tasks and understands priorities.Iteration Reviews and Retrospectives: Conduct regular reviews and retrospectives to evaluate progress, gather feedback, and continuously improve processes.Team Collaboration: Facilitate collaboration between development, design, marketing, and sales to ensure that project goals are met cohesively.", // Add description points here
@@ -49,12 +40,22 @@ export const workExperienceTemplate = [
     type: "work",
   },
   {
-    key: 3,
+    key: 2,
     company: "Digitales Native", // Add company name here
     description: [
       "Develop the backend for an Admin dashboard using Node.js, Express.js, and Sequelize.Develop an admin dashboard with a Material UI template.", // Add description points here
     ],
-    duration: "01-2023 - 11-2023", // Add duration here
+    duration: "02-2023 - 11-2023", // Add duration here
+    designation: "Full-Stack Developer", // Add designation here
+    type: "work",
+  },
+  {
+    key: 3,
+    company: "Freelance(sales store dashboard)", // Add company name here
+    description: [
+      "Develop the backend for an Admin dashboard using Node.js, Express.js, and Sequelize.Develop an admin dashboard with a Material UI template.", // Add description points here
+    ],
+    duration: "10/2023", // Add duration here
     designation: "Full-Stack Developer", // Add designation here
     type: "work",
   },
@@ -64,7 +65,7 @@ export const workExperienceTemplate = [
     description: [
       "Develop the backend for an Admin dashboard using Node.js, Express.js, and Sequelize.Develop an admin dashboard with a Material UI template.", // Add description points here
     ],
-    duration: "04-2023 - 10-2022", // Add duration here
+    duration: "08-2022 - 02-2023", // Add duration here
     designation: "Full-Stack Developer", // Add designation here
     type: "work",
   },
@@ -133,28 +134,28 @@ export const educationExperience = [
   {
     key: 1,
     institution: "Full Stack Javascript Developer",
-    graduation: "May 2023",
+    graduation: "Aug 2022",
     degree: "RebootKamp (RBK)",
     type: "education",
   },
   {
     key: 2,
     institution: "Master degree in quality, safety and environment management",
-    graduation: "Aug 2016",
+    graduation: "Oct 2016",
     degree: "Leaders University -Tunisia",
     type: "education",
   },
   {
     key: 3,
     institution: "Applied License in international economics and finance",
-    graduation: "Aug 2013",
+    graduation: "Jun 2013",
     degree: "Faculty of economics and management - Tunisia",
     type: "education",
   },
   {
     key: 4,
     institution: "Baccalaureate",
-    graduation: "Aug 2010",
+    graduation: "Jun 2010",
     degree: "High school 7 November- Tunisia",
     type: "education",
   },

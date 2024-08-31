@@ -394,7 +394,7 @@ const AboutMe = ({ page, handleDivClick, expandedDiv }) => {
                 </time>
                
                 <div className="text-xl font-bold font-3xl">
-                  {workExperienceTemplate[0].designation}
+                  {workExperienceTemplate[2].designation}
                 </div>
                 {workExperienceTemplate[2].duration}
               </div>
@@ -423,7 +423,7 @@ const AboutMe = ({ page, handleDivClick, expandedDiv }) => {
                 </time>
              
                 <div className="text-xl font-bold font-3xl">
-                  {workExperienceTemplate[0].designation}
+                  {workExperienceTemplate[3].designation}
                 </div>
                 {workExperienceTemplate[3].duration}
               </div>
@@ -446,13 +446,13 @@ const AboutMe = ({ page, handleDivClick, expandedDiv }) => {
               </div>
               <div className="timeline-start md:text-end mb-3">
                 <time className="font-mono text-lg italic">
-                  {workExperienceTemplate[2].company}
+                  {workExperienceTemplate[4].company}
                 </time>
                
                 <div className="text-xl font-bold font-3xl">
-                  {workExperienceTemplate[0].designation}
+                  {workExperienceTemplate[4].designation}
                 </div>
-                {workExperienceTemplate[2].duration}
+                {workExperienceTemplate[4].duration}
               </div>
               
               <hr className="bg-gray-500" />

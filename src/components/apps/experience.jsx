@@ -5,7 +5,7 @@ function Experience() {
     {
       title: "SuperHost",
       subtitle: "Digitales Native",
-      date: "Aug 2023...",
+      date: "Jan 2023...",
       description: [
         "Develop the backend for a web application similar to Airbnb using Node.js, Express.js, and Sequelize.",
         "Implement APIs such as OpenAI and FastForex.",
@@ -18,7 +18,7 @@ function Experience() {
     {
       title: "Sales Store Dashboard",
       subtitle: "Freelance",
-      date: "07-2024",
+      date: "10-2023",
       description: [
         "Develop the backend for an Admin dashboard using Node.js, Express.js, and Sequelize.",
         "Develop an admin dashboard with a Material UI template."
@@ -27,7 +27,7 @@ function Experience() {
     {
       title: "TAWELTI Mobile Application",
       subtitle: "Rebootkamp (RBK)",
-      date: "Jul 2023 - Aug 2023",
+      date: "Aug 2022 - Jan 2023",
       description: [
         "Integrate Cloudinary with React Native.",
         "Implement functionality to retrieve latitude and longitude of a place or city and display GPS coordination on a map.",
@@ -37,19 +37,7 @@ function Experience() {
         "Established a Link ID for the mobile application."
       ]
     },
-    {
-      title: "Project - E-commerce Web Site",
-      subtitle: "Rebootkamp (RBK)",
-      date: "Jun 2023",
-      description: [
-        "Plan the dashboard layout and navigation structure.",
-        "Develop responsive frontend components for the dashboard.",
-        "Implement user registration, login, and email functionality using Nodemailer.",
-        "Create a product database schema and enable CRUD operations.",
-        "Extend the database schema and build sections for managing sellers, clients, categories, products, and requests.",
-        "Define Sequelize models and set up database migrations."
-      ]
-    }
+   
   ];
 
   return (
